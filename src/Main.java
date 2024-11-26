@@ -22,19 +22,19 @@ public class Main {
               //performScrapingAndCleaning(rekrut, "Rekrut.json", "Rekrutcleaned_data.json");
 
             // Scraping et nettoyage pour EmploiMa
-            emploiMa.scrap();
-             performScrapingAndCleaning(
-                    emploiMa,
-                    "emploima_jobs.json",
-                    "emploimacleaned_data.json"
-            );
+           // emploiMa.scrap();
+             //performScrapingAndCleaning(
+               //     emploiMa,
+                 //   "emploima_jobs.json",
+                   // "emploimacleaned_data.json"
+            //);
 
-            /** talentTectra.scrap();
+             talentTectra.scrap();
             performScrapingAndCleaning(
                     talentTectra,
                     "talenttectra_jobs.json",
                     "talenttecracleaned_data.json"
-            ); */
+            );
         } catch (IOException e) {
             System.err.println("Erreur lors de l'exécution : " + e.getMessage());
             e.printStackTrace();
