@@ -1,3 +1,5 @@
+package scraper;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.jsoup.Jsoup;

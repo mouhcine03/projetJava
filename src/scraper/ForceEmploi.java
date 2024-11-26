@@ -1,3 +1,5 @@
+package scraper;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -128,7 +130,7 @@ public class ForceEmploi {
         ObjectMapper mapper = new ObjectMapper();
         try {
             // Define the file path
-            File outputFile = new File("C:\\Users\\Electronic Store\\Downloads\\projectos\\projectos\\outputs\\ForceEmploi.json");
+            File outputFile = new File("C:\\Users\\Electronic Store\\Downloads\\projectos\\projectos\\outputs\\cleaners.ForceEmploi.json");
 
             // Ensure the parent directory exists
             File outputDir = outputFile.getParentFile();

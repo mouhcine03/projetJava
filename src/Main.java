@@ -1,3 +1,8 @@
+import cleaners.EmploiMaCleaner;
+import cleaners.RekrutCleaner;
+import cleaners.TalentTecraCleaner;
+import scraper.*;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -15,13 +20,13 @@ public class Main {
             // Exemple de scraping dynamique
             // bayt.scrap();
             // forceEmploi.scrap();
-            // wetech.scrap();
+            // scraper.wetech.scrap();
 
-            // Scraping et nettoyage pour Rekrut
+            // Scraping et nettoyage pour cleaners.Rekrut
              //rekrut.scrap();
-              //performScrapingAndCleaning(rekrut, "Rekrut.json", "Rekrutcleaned_data.json");
+              //performScrapingAndCleaning(rekrut, "cleaners.Rekrut.json", "Rekrutcleaned_data.json");
 
-            // Scraping et nettoyage pour EmploiMa
+            // Scraping et nettoyage pour cleaners.EmploiMa
            // emploiMa.scrap();
              //performScrapingAndCleaning(
                //     emploiMa,
